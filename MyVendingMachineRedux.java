@@ -1,3 +1,11 @@
+/*Writeup: This program starts by creating items in different classes, naming them, giving them prices, setting their stock 
+quantity, and putting them into an array. The classes of the items are child classes of an abstract class. The prices and stock
+count are determined randomly within certain limits. The items' names, prices, and stock count are then laid out in a grid. A 
+switch statement then presents the user with a variety of options. The switch statement is run over and over until the option 
+to terminate the loop is selected. To purchase an item, money must be put into the machine so that there are sufficient funds 
+to buy that item. If money is not sufficient or the stock is out, an exception is thrown and caught and the user is told either
+that the stock is out or they have entered insufficient funds. Money remaining in the machine can be checked and withdrawn. An 
+option allows the user to look at the names, prices, and stock of all the items again and the last option ends the program.*/
 
 import java.text.NumberFormat;
 import java.util.Random;
